@@ -10,6 +10,15 @@
 <style>
 
 
+@media screen and (min-width: 1000px) {
+  .ytp-unmute.ytp-popup {
+    display: none !important;
+
+  }
+}
+
+
+
 .footer {
   position: fixed;
   left: 0;
@@ -12362,15 +12371,16 @@ nav {
 
 .ytp-unmute.ytp-popup {
 	position: absolute;
-	top: -10px;
-	left: -18px;
+	top: -15px;
+	right: -15px;
 	z-index: 1001;
 	text-transform: uppercase;
-	color: #000;
-	font-size: 20px;
-	font-weight: 500;
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
 	background: none;
 	padding: 18px;
+
 
 
 }
@@ -12441,21 +12451,25 @@ nav {
 	position: relative;
 	z-index: 10;
 	padding-top: 1px;
-	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .ytp-unmute-shrink .ytp-unmute-box {
 	width: 100%;
-	-moz-animation: ytp-unmute-width-anim .5s cubic-bezier(0.4, 0.0, 1, 1) 5.5s reverse forwards;
-	-webkit-animation: ytp-unmute-width-anim .5s cubic-bezier(0.4, 0.0, 1, 1) 5.5s reverse forwards;
-	animation: ytp-unmute-width-anim .5s cubic-bezier(0.4, 0.0, 1, 1) 5.5s reverse forwards;
+	-moz-animation: ytp-unmute-width-anim 5s cubic-bezier(0.4, 0.0, 1, 1) .7s reverse forwards;
+	-webkit-animation: ytp-unmute-width-anim 5s cubic-bezier(0.4, 0.0, 1, 1) .7s reverse forwards;
+	animation: ytp-unmute-width-anim 5s cubic-bezier(0.4, 0.0, 1, 1) .7s reverse forwards;
 }
+
+
+
+
 
 .ytp-unmute-shrink .ytp-unmute-text {
 	opacity: 1;
-	-moz-animation: ytp-unmute-alpha-anim .25s cubic-bezier(0.4, 0.0, 1, 1) 5.4s reverse forwards;
-	-webkit-animation: ytp-unmute-alpha-anim .25s cubic-bezier(0.4, 0.0, 1, 1) 5.4s reverse forwards;
-	animation: ytp-unmute-alpha-anim .25s cubic-bezier(0.4, 0.0, 1, 1) 5.4s reverse forwards;
+	-moz-animation: ytp-unmute-alpha-anim 4s cubic-bezier(0.4, 0.0, 1, 1) .6s reverse forwards;
+	-webkit-animation: ytp-unmute-alpha-anim 4s cubic-bezier(0.4, 0.0, 1, 1) .6s reverse forwards;
+	animation: ytp-unmute-alpha-anim 4s cubic-bezier(0.4, 0.0, 1, 1) .6s reverse forwards;
 }
 
 
@@ -12539,7 +12553,7 @@ button {
 			
 			
 
-				<button class="ytp-unmute ytp-popup ytp-button ytp-unmute-animated ytp-unmute-shrink" id="unmute" data-layer="2"><div class="ytp-unmute-inner"><div class="ytp-unmute-icon"><div class="ytp-icon ytp-icon-volume-muted-dark"></div></div><div class="ytp-unmute-text">Tap to unmute</div><div class="ytp-unmute-box"></div></div></button>
+				<button class="ytp-unmute ytp-popup ytp-button ytp-unmute-animated ytp-unmute-shrink" id="unmute" data-layer="2"><div class="ytp-unmute-inner"><div class="ytp-unmute-text">Tap to unmute</div><div class="ytp-unmute-box"></div><div class="ytp-unmute-icon"><div class="ytp-icon ytp-icon-volume-muted-dark"></div></div></div></button>
 					
 			
 				<a href="/" id="logo" class="nts-app ir" data-track="event" data-category="Navigation" data-action="GoTo-Home" data-label="from: header">NTS</a>
