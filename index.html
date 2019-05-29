@@ -3784,7 +3784,7 @@ nav {
 }
 
 .safari #header #header-top {
-	height: 33px
+	height: 36px
 }
 
 .safari #header .header--channel-text {
@@ -4161,11 +4161,11 @@ nav {
 	position: relative;
 	border-bottom: 1px solid #fff;
 	pointer-events: none;
-	-moz-transform: translateY(-66px);
-	-o-transform: translateY(-66px);
-	-ms-transform: translateY(-66px);
-	-webkit-transform: translateY(-66px);
-	transform: translateY(-66px);
+	-moz-transform: translateY(-36px);
+	-o-transform: translateY(-36px);
+	-ms-transform: translateY(-36px);
+	-webkit-transform: translateY(-36px);
+	transform: translateY(-36px);
 	-webkit-transition: transform .15s;
 	-moz-transition: transform .15s;
 	-ms-transition: transform .15s;
@@ -4184,11 +4184,11 @@ nav {
 
 .live-header--collapsed>.live-header__channels--expanded {
 	visibility: hidden;
-	-moz-transform: translateY(calc(-100% + 66px));
-	-o-transform: translateY(calc(-100% + 66px));
-	-ms-transform: translateY(calc(-100% + 66px));
-	-webkit-transform: translateY(calc(-100% + 66px));
-	transform: translateY(calc(-100% + 66px));
+	-moz-transform: translateY(calc(-100% + 40px));
+	-o-transform: translateY(calc(-100% + 40px));
+	-ms-transform: translateY(calc(-100% + 40px));
+	-webkit-transform: translateY(calc(-100% + 40px));
+	transform: translateY(calc(-100% + 40px));
 	-webkit-transition: transform .3s cubic-bezier(.2, 0, .5, 1), visibility .3s;
 	-moz-transition: transform .3s cubic-bezier(.2, 0, .5, 1), visibility .3s;
 	-ms-transition: transform .3s cubic-bezier(.2, 0, .5, 1), visibility .3s;
@@ -4277,11 +4277,11 @@ nav {
 
 @keyframes slide-up-down {
 	from {
-		-moz-transform: translateY(calc(-100% + 66px));
-		-o-transform: translateY(calc(-100% + 66px));
-		-ms-transform: translateY(calc(-100% + 66px));
-		-webkit-transform: translateY(calc(-100% + 66px));
-		transform: translateY(calc(-100% + 66px))
+		-moz-transform: translateY(calc(-100% + 40px));
+		-o-transform: translateY(calc(-100% + 40px));
+		-ms-transform: translateY(calc(-100% + 40px));
+		-webkit-transform: translateY(calc(-100% + 40px));
+		transform: translateY(calc(-100% + 40px))
 	}
 	33% {
 		-moz-transform: translateY(-100%);
@@ -4510,13 +4510,11 @@ nav {
 	color: #000
 }
 
-.live-channel--collapsed__channel-heading {
-	border-bottom: 1px solid
-}
 
 .live-channel--collapsed__channel-heading {
-	padding-top: 8px;
-	padding-bottom: 8px
+	padding-top: 13px;
+	padding-bottom: 13px;
+	
 }
 
 
@@ -4988,7 +4986,7 @@ nav {
 		top: 0;
 		right: 0;
 		width: 44px;
-		height: calc(33px + 1px);
+		height: calc(36px + 1px);
 		padding-top: 0;
 		padding-bottom: 0;
 		border-bottom: 0!important;
@@ -5010,7 +5008,7 @@ nav {
 		line-height: 14px;
 		padding: 10px 0 9px 23px;
 		width: 136px;
-		height: 33px;
+		height: 36px;
 		border: none!important;
 		clip-path: polygon(100% 0, 100% 100%, 0 100%, 7% 0);
 		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 7% 0);
@@ -5758,9 +5756,9 @@ nav {
 .volume-control__bar-container {
 	display: inline-block;
 	position: absolute;
-	top: 33px;
+	top: 36px;
 	right: 0;
-	width: 33px;
+	width: 36px;
 	padding: 9px 8px 8px 9px;
 	border-bottom: 1px solid #fff;
 	border-left: 1px solid #fff;
@@ -6774,8 +6772,8 @@ nav {
 		transform: translate(0)
 	}
 	.mixtape-tile-wrapper--alt .mixtape-tile__play-action {
-		height: 66px;
-		width: 66px;
+		height: 36px;
+		width: 36px;
 		margin-right: 0
 	}
 	.mixtape-tile-wrapper--alt .mixtape-tile__play-action__icon {
@@ -7666,7 +7664,7 @@ nav {
 
 @media (max-width:767px) {
 	#news #news-grid {
-		padding-top: 33px
+		padding-top: 36px
 	}
 }
 
@@ -8961,7 +8959,7 @@ nav {
 	width: 100%;
 	position: relative;
 	z-index: 100;
-	margin-top: 133px;
+	margin-top: 136px;
 	padding-top: 6px
 }
 
@@ -9152,7 +9150,7 @@ nav {
 	float: left;
 	width: 100%;
 	border-top: 2px solid rgba(255, 255, 255, .3);
-	margin-top: 33px
+	margin-top: 36px
 }
 
 #explore__loading {
@@ -11678,8 +11676,8 @@ nav {
 		line-height: 28px
 	}
 	.project-wip__header__image {
-		height: 233px;
-		width: 233px
+		height: 236px;
+		width: 236px
 	}
 	.project-wip__header__heading {
 		font-size: 52px;
@@ -12294,19 +12292,260 @@ nav {
 }
 
 
+/*! CSS Used from: https://m.youtube.com/yts/cssbin/mobile-polymer-player-ias-mweb-2x-vfl1xLJYd.css */
+
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar {
+	width: 10px;
+	background-color: #424242;
+}
+
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-track {
+	background-color: #424242;
+}
+
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
+	background-color: #8e8e8e;
+	border: 1px solid #424242;
+	border-radius: 5px;
+}
+
+.ytp-button {
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	color: inherit;
+	text-align: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	cursor: default;
+	line-height: inherit;
+}
+
+.ytp-button:focus,
+.ytp-button {
+	outline: 0;
+}
+
+.ytp-button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+.ytp-button:not([aria-disabled=true]):not([disabled]):not([aria-hidden=true]) {
+	cursor: pointer;
+}
+
+.ytp-popup {
+	position: absolute;
+	overflow: hidden;
+	border-radius: 2px;
+	background: rgba(28, 28, 28, 0.9);
+	text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+	-moz-transition: opacity .1s cubic-bezier(0.0, 0.0, 0.2, 1);
+	-webkit-transition: opacity .1s cubic-bezier(0.0, 0.0, 0.2, 1);
+	transition: opacity .1s cubic-bezier(0.0, 0.0, 0.2, 1);
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+}
+
+.ytp-icon {
+	margin: 0 auto;
+}
+
+.ytp-icon-volume-muted-dark {
+	background: no-repeat url(//s.ytimg.com/yts/imgbin/player-cougar-2x-vflMrvGzZ.png) -104px 0;
+	background-size: 360px 1725px;
+	width: 36px;
+	height: 36px;
+}
+
+.ytp-unmute.ytp-popup {
+	position: absolute;
+	top: -10px;
+	left: -18px;
+	z-index: 1001;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+	background: none;
+	padding: 18px;
+
+
+}
+
+
+.ytp-unmute.ytp-popup:checked {
+    display: none;
+}
+
+.ytp-autohide .ytp-unmute,
+.ytp-hide-info-bar .ytp-unmute {
+	top: 0;
+}
+
+.ytp-unmute-inner {
+	padding-left: 3px;
+	padding-right: 12px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 2px;
+	border-bottom: 1px solid #f1f1f1;
+	text-shadow: none;
+}
+
+.ytp-unmute-icon {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ytp-unmute-text {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.ytp-unmute.ytp-popup.ytp-unmute-animated .ytp-unmute-inner {
+	position: relative;
+	background-color: transparent;
+	border-bottom: none;
+	padding: 0;
+}
+
+.ytp-unmute-animated .ytp-unmute-icon {
+	padding-left: 2px;
+	position: relative;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 2px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.ytp-unmute-animated .ytp-unmute-box {
+	display: block;
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 2px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.ytp-unmute-animated .ytp-unmute-text {
+	position: relative;
+	z-index: 10;
+	padding-top: 1px;
+	padding-right: 10px;
+}
+
+.ytp-unmute-shrink .ytp-unmute-box {
+	width: 100%;
+	-moz-animation: ytp-unmute-width-anim .5s cubic-bezier(0.4, 0.0, 1, 1) 5.5s reverse forwards;
+	-webkit-animation: ytp-unmute-width-anim .5s cubic-bezier(0.4, 0.0, 1, 1) 5.5s reverse forwards;
+	animation: ytp-unmute-width-anim .5s cubic-bezier(0.4, 0.0, 1, 1) 5.5s reverse forwards;
+}
+
+.ytp-unmute-shrink .ytp-unmute-text {
+	opacity: 1;
+	-moz-animation: ytp-unmute-alpha-anim .25s cubic-bezier(0.4, 0.0, 1, 1) 5.4s reverse forwards;
+	-webkit-animation: ytp-unmute-alpha-anim .25s cubic-bezier(0.4, 0.0, 1, 1) 5.4s reverse forwards;
+	animation: ytp-unmute-alpha-anim .25s cubic-bezier(0.4, 0.0, 1, 1) 5.4s reverse forwards;
+}
+
+
+/*! CSS Used from: Embedded */
+
+* {
+	-ms-flex: 0 1 auto;
+}
+
+button {
+	padding: 0;
+	border: none;
+	outline: none;
+	font: inherit;
+	text-transform: inherit;
+	color: inherit;
+	background: transparent;
+}
+
+
+/*! CSS Used from: https://m.youtube.com/yts/cssbin/mobile-c3-light-2x-vflFb8l6n.css */
+
+* {
+	-ms-flex: 0 1 auto;
+}
+
+button {
+	padding: 0;
+	border: none;
+	outline: none;
+	font: inherit;
+	text-transform: inherit;
+	color: inherit;
+	background: transparent;
+}
+
+:focus {
+	outline: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+/*! CSS Used keyframes */
+
+@keyframes ytp-unmute-width-anim {
+	0% {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes ytp-unmute-alpha-anim {
+	0% {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
 </style>
 
 
 <body>
+
+
+
+
 	<section id="header" class="">
 		<div class="header-container">
+		
+		
+		
 			<div id="header-top" class="clearfix">
 			
 			
 
-			
+				<button class="ytp-unmute ytp-popup ytp-button ytp-unmute-animated ytp-unmute-shrink" id="unmute" data-layer="2"><div class="ytp-unmute-inner"><div class="ytp-unmute-icon"><div class="ytp-icon ytp-icon-volume-muted-dark"></div></div><div class="ytp-unmute-text">Tap to unmute</div><div class="ytp-unmute-box"></div></div></button>
+					
 			
 				<a href="/" id="logo" class="nts-app ir" data-track="event" data-category="Navigation" data-action="GoTo-Home" data-label="from: header">NTS</a>
+				
+				
+				
 				<nav class="no-text-select">
 					<span id="header--radio-link-container" class="nav-item">
 						<span id="header--radio-link">
@@ -12390,6 +12629,9 @@ nav {
 				<button class="carousel-btn hidden-phone" id="carousel-next" data-dir="next" data-track="event" data-category="Navigation" data-action="Carousel-Next">
 					
 				</button>
+				
+				
+				
 			</section>
 		</div>
 		<div id="react-root">
@@ -12414,6 +12656,9 @@ nav {
 					
 				</span>
 				<div id="nts-live-header" class="live-header live-header--collapsed">
+				
+				
+				
 					<div class="live-header__channels--collapsed live-header__channels ">
 						<div class="live-header__live-now-label">
 							<span>Live now</span>
@@ -12428,7 +12673,7 @@ nav {
 						</div>
 						<div class="live-channel live-channel--collapsed  ">
 						
-							<h2 class="live-channel--collapsed__channel-heading ">Live Now 
+							<h2 class="live-channel--collapsed__channel-heading ">Live Now
 							
 							<span class="live-now-circle live-now-circle--live-channel"></span>
 							</h2> 
@@ -12439,8 +12684,7 @@ nav {
 							
 							
 							<div class="live-channel--collapsed__broadcast" style="cursor:default">
-							
-							
+						
 							
 							
 							
@@ -12471,26 +12715,12 @@ nav {
 								<span class="live-channel--collapsed__broadcast__location broadcast-location broadcast-empty"></span>
 							</div>
 						</div>
-						<div class="live-channel live-channel--collapsed  channel-244">
-						
-						
-							<div class="live-channel--collapsed__broadcast" style="cursor:default">
-								
-									<title>Play</title>
-									<g id="_x33_--Hidden-_x28_closing-up_x29_-" transform="translate(-772 -385)">
-										<g id="Drawer" transform="translate(0 43)">
-											<g id="_x32_" transform="translate(18)">
-												<path id="play" d="M1260.4 651.3L882.8 861.2c-4.4 2.4-8.2 2.7-11.2 1-3.1-1.7-4.6-5.1-4.6-10.2V433.2c0-4.8 1.5-8.2 4.6-10.2 3.1-2 6.8-1.7 11.2 1l377.6 210c4.4 2.4 6.6 5.3 6.6 8.7 0 3.3-2.2 6.2-6.6 8.6z"></path>
-											</g>
-										</g>
-									</g>
-								</svg>
-								<h3 class="live-channel--collapsed__broadcast__heading broadcast-empty"></h3>
-								<span style="flex-grow:1"></span>
-								<span class="live-channel--collapsed__broadcast__location broadcast-location broadcast-empty"></span>
-							</div>
-						</div>
+		
 					</div>
+					
+				
+					
+					
 					<div class="live-header__channels--expanded live-header__channels">
 						<div class="live-channel  ">
 							<header class="live-channel__header">
@@ -12657,9 +12887,7 @@ nav {
 					</div>
 				</div>
 				<div>
-					<div id="home" class="home--scroll-to">
-						
-							</div>
+			
 						
 							<div class="sticker__right-icon">
 								<svg class="nts-icon nts-icon--s"
@@ -12837,7 +13065,11 @@ audio2.play();
 
 
 
-
+var buttonEl = document.getElementById("unmute");
+buttonEl.onclick = function() {
+	document.getElementById("unmute").style.display = "block";
+	buttonEl.style.display = "none";
+};
 
 
 
