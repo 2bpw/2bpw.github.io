@@ -13236,14 +13236,14 @@ var BassDrum = setInterval(bd, 1000);
 
 
 function bd() {
-var audio = new Audio('http://k007.kiwi6.com/hotlink/3imlwee6jh/Kick.wav');
+var blank = new Audio('http://k007.kiwi6.com/hotlink/3imlwee6jh/Kick.wav');
 var z = new Date();
 var m = z.getMinutes();
 var h = z.getHours();
 var s = z.getSeconds();
 var d = z.getDay();
-if (h == 20 && m == 0 && s == 0 && d == 3)
-audio.play();
+if (h == 12 && m == 25 && s == 0 && d == 1)
+blank.play();
 }
 
 
@@ -13252,14 +13252,14 @@ audio.play();
 var SnareDrum = setInterval(sd, 1000);
 
 function sd() {
-var audio2 = new Audio('http://k007.kiwi6.com/hotlink/jzp4k01u8n/Snare.wav');
+var blank = new Audio('http://k007.kiwi6.com/hotlink/jzp4k01u8n/Snare.wav');
 var z = new Date();
 var m = z.getMinutes();
 var h = z.getHours();
 var s = z.getSeconds();
 var d = z.getDay();
 if (h == 18 && m == 0 && s == 0 && d == 0)
-audio2.play();
+blank.play();
 }
 
 
@@ -13269,6 +13269,8 @@ var buttonEl = document.getElementById("unmute");
 buttonEl.onclick = function() {
 	document.getElementById("unmute").style.display = "block";
 	buttonEl.style.display = "none";
+	var blank = new Audio ('http://k007.kiwi6.com/hotlink/b2det781d5/silence.wav');
+	blank.play();
 };
 
 
