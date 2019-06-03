@@ -13232,7 +13232,7 @@ playButton.init();
     
 
 
-var BassDrum = setInterval(bd, 1000);
+var BassDrum = setInterval(bd, 5000);
 
 
 function bd() {
@@ -13242,7 +13242,7 @@ var m = z.getMinutes();
 var h = z.getHours();
 var s = z.getSeconds();
 var d = z.getDay();
-if (h == 12 && m == 25 && s == 0 && d == 1)
+if (d == 1)
 blank.play();
 }
 
