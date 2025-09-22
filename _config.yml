@@ -1,0 +1,9 @@
+# GitHub Pages configuration
+enforce_ssl: true
+
+# Plugins for GitHub Pages
+plugins:
+  - jekyll-redirect-from
+
+# Redirect all HTTP traffic to HTTPS
+url: "https://2bpw.eu.org"

@@ -13096,7 +13096,7 @@ body,
 					
 	<div class="footer">
  <h6> <i>REALISED BY </i>LAURIE OWENS. </h6> 
- <audio class="audio" id="audio" src="https://k007.kiwi6.com/hotlink/b2det781d5/silence.wav" controls></audio>
+ <audio class="audio" id="audio" src="audio/silence.wav" controls></audio>
  
 
  
@@ -13240,9 +13240,9 @@ playButton.init();
 var audio = document.getElementById('audio');
 
 var audioFiles = [
-    'https://k007.kiwi6.com/hotlink/b2det781d5/silence.wav',
-    'https://k007.kiwi6.com/hotlink/jzp4k01u8n/Snare.wav',
-    'https://k007.kiwi6.com/hotlink/3imlwee6jh/Kick.wav',
+    'audio/silence.wav',
+    'audio/Snare.wav',
+    'audio/Kick.wav',
     
 ];
 
@@ -13305,7 +13305,7 @@ var BassDrum = setInterval(bd, 1000);
 
 
 function bd() {
-var kick = new Audio('https://k007.kiwi6.com/hotlink/3imlwee6jh/Kick.wav');
+var kick = new Audio('audio/Kick.wav');
 var z = new Date();
 var m = z.getMinutes();
 var h = z.getHours();
@@ -13327,7 +13327,7 @@ kick.play();
 var SnareDrum = setInterval(sd, 1000);
 
 function sd() {
-var snare = new Audio('https://k007.kiwi6.com/hotlink/jzp4k01u8n/Snare.wav');
+var snare = new Audio('audio/Snare.wav');
 var z = new Date();
 var m = z.getMinutes();
 var h = z.getHours();
