@@ -1,9 +1,12 @@
 # GitHub Pages configuration
 enforce_ssl: true
 
-# Plugins for GitHub Pages
-plugins:
-  - jekyll-redirect-from
-
-# Redirect all HTTP traffic to HTTPS
+# Site configuration
+title: "2BPW - 2 Beats Per Week"
+description: "Minimal techno radio broadcasting 2 beats per week"
 url: "https://2bpw.eu.org"
+baseurl: ""
+
+# Security headers
+plugins:
+  - jekyll-sitemap
